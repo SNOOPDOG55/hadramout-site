@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>تاريخ حضرموت ومعالم مدنها</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* نفس التنسيق السابق بالضبط */
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(135deg, #0f766e, #14b8a6);
+      color: white;
+      padding: 30px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; font-size: 2rem; }
+    header p { margin: 0; font-size: 1rem; }
+    .container { max-width: 1100px; margin: 20px auto; padding: 0 15px 40px; }
+    .intro, .city { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); margin-bottom: 20px; }
+    .city {
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+      gap: 16px;
+    }
+    @media (max-width: 768px) {
+      .city { grid-template-columns: 1fr; }
+    }
+    img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+    .city h3 { margin-top: 0; }
+    .landmark-name { font-weight: 600; color: #065f46; }
+    .upload-box { margin-top: 8px; background: #f9fafb; border: 1px dashed #cbd5f5; padding: 8px; border-radius: 10px; }
+    footer { text-align: center; padding: 15px; color: #6b7280; font-size: .85rem; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>تاريخ حضرموت ومعالم مدنها</h1>
+  <p>نظرة سريعة على حضرموت ومدنها البارزة ومعالمها التاريخية</p>
+</header>
+
+<div class="container">
+  <section class="intro">
+    <h2>نبذة عن حضرموت</h2>
+    <p>
+تُعد حضرموت من أقدم الأقاليم التاريخية في جنوب الجزيرة العربية، وتمتاز بمدنها
+      التاريخية ووِديانها الخصبة وعمارتها الطينية المميزة. تعاقبت عليها حضارات
+      وتجار ورحّالة، وخرج منها علماء ودعاة وتجار انتشروا في أنحاء العالم. </p>
+  </section>
+
+  <!-- 1 المكلا -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Al_Mukalla_corniche.jpg/640px-Al_Mukalla_corniche.jpg">
+    </div>
+    <div>
+      <h3>مدينة المكلا</h3>
+      <div class="landmark-name">الواجهة البحرية وقلعة الغويزي</div>
+      <p>المكلا هي عاصمة حضرموت الساحلية وميناؤها الرئيسي على بحر العرب.
+        تُعد الواجهة البحرية وأسوارها القديمة وقلعة الغويزي من أبرز معالمها،
+        حيث كانت القلعة نقطة مراقبة لحماية المدينة والميناء من الأخطار القادمة
+        من البر والبحر.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة المعلم:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 سيئون -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Seiyun_Palace%2C_Yemen_%281%29.jpg/640px-Seiyun_Palace%2C_Yemen_%281%29.jpg">
+    </div>
+    <div>
+      <h3>مدينة سيئون</h3>
+      <div class="landmark-name">قصر السلطان الكثيري</div>
+      <p>تقع سيئون في قلب وادي حضرموت، ويُعد قصر السلطان الكثيري من أبرز معالمها
+        المعمارية. بُني القصر على طراز العمارة الطينية متعددة الطوابق، وكان
+        مقرّاً لحكم السلطنة الكثيرية، وهو اليوم رمز بارز لتاريخ سيئون وحضرموت.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 تريم -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tarim%2C_Al-Muhdhar_mosque%2C_tower.jpg/640px-Tarim%2C_Al-Muhdhar_mosque%2C_tower.jpg">
+    </div>
+    <div>
+      <h3>مدينة تريم</h3>
+      <div class="landmark-name">مسجد المحضار</div>
+      <p>تُعرف تريم بمدينة العلم والدعوة، وتضم عدداً كبيراً من المساجد والرباطات
+        العلمية. يُعد مسجد المحضار بمئذنته الطينية العالية من أبرز معالم المدينة،
+        وقد بُني بأسلوب معماري مميز يعكس مهارة البنّائين الحضرميين.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 شبام -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Shibam%2C_Hadramaut%2C_Yemen.jpg/640px-Shibam%2C_Hadramaut%2C_Yemen.jpg">
+    </div>
+    <div>
+      <h3>مدينة شبام</h3>
+      <div class="landmark-name">المدينة القديمة</div>
+      <p> تُلقّب شبام بـ "مانهاتن الصحراء" بسبب مبانيها الطينية العالية المتلاصقة،
+        والتي تعد من أقدم نماذج ناطحات السحاب في العالم. أدرجتها اليونسكو ضمن
+        قائمة التراث العالمي نظراً لأهميتها التاريخية والمعمارية.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 الشحر -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ash_Shahir_Coast_Yemen.jpg/640px-Ash_Shahir_Coast_Yemen.jpg">
+    </div>
+    <div>
+      <h3>مدينة الشحر</h3>
+      <div class="landmark-name">بوابة الشحر</div>
+      <p>الشحر من أقدم الموانئ على بحر العرب، وكانت معبراً رئيسياً لتجارة اللبان
+        والبخور والأسماك. تشتهر ببوابتها التاريخية وأسوارها القديمة المطلة على البحر،
+        إضافة إلى مبانيها ذات الطابع الحضرمي التقليدي.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 القطن -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Al-Qatn%2C_Hadhramaut.jpg/640px-Al-Qatn%2C_Hadhramaut.jpg">
+    </div>
+    <div>
+      <h3>مدينة القطن</h3>
+      <div class="landmark-name">جامع القطن</div>
+      <p>تقع القطن في منطقة خصبة من الوادي، وتشتهر بمزارع النخيل والمحاصيل الزراعية.
+        يُعد جامع القطن الكبير وما حوله من مبانٍ طينية وأسواق شعبية من أبرز المعالم
+        التي تعكس طبيعة الحياة في المدينة.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 حريضة -->
+  <section class="city">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Haridah%2C_Hadhramaut.jpg/640px-Haridah%2C_Hadhramaut.jpg">
+    </div>
+    <div>
+      <h3>مدينة حريضة</h3>
+      <div class="landmark-name">العمارة الطينية</div>
+      <p>تقع حريضة على أطراف الوادي، وتتميّز بمبانٍ طينية متدرجة على سفوح الجبال
+        القريبة. تعطي المدينة نموذجاً جميلاً للتمازج بين الطبيعة الجبلية والعمارة
+        الحضرميّة التقليدية.</p>
+      <div class="upload-box">
+        <label>إضافة/تغيير صورة:</label>
+        <input type="file" accept="image/*">
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>&copy; 2025 موقع حضرموت</footer>
+
+<!-- === JavaScript لتغيير الصورة فوراً === -->
+<script>
+document.querySelectorAll('.city').forEach(city => {
+  const fileInput = city.querySelector('input[type="file"]');
+  const img = city.querySelector('img');
+
+  fileInput.addEventListener('change', () => {
+    const file = fileInput.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => { img.src = e.target.result };
+    reader.readAsDataURL(file);
+  });
+});
+</script>
+
+</body>
+</html>
+i
